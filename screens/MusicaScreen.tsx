@@ -11,7 +11,7 @@ export default function MusicaScreen() {
     function guardar() {
  
         if ( cancion.trim() == "") {
-            Alert.alert("Error", "La cancion no debe tener espacios")
+            Alert.alert("ERROR", "La cancion no debe tener espacios")
         }
  
         if (aceptar && cancion.trim() != "") {
